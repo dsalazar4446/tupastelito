@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Poetsen One';
+    src: url('./assets/fonts/poetsen_one/PoetsenOne-Regular.ttf') format('truetype');
+}
+
+.menu {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    padding-left: 25%;
+}
+
+
+li {
+    list-style: none;
+    width: 800px;
+    margin-bottom: 25px;
+}
+
+li>span {
+    float: right;
+}
+
+.logo {
+    background-color: y;
+    background-image: url('./assets/images/logo.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 130px;
+}
+
+header {
+    background-color: #f1da00;
+}
+
+body {
+    font-family: 'Poetsen One';
+    src: url('./assets/fonts/poetsen_one/PoetsenOne-Regular.ttf') format('truetype');
+}
+
+.title {
+        margin-left: 30%;
+        margin-top: 40px;
+}
+
+
+@media screen and (max-width: 426px) {
+    .menu {
+        font-size: 14px !important;
+        padding-left: unset !important;
+        padding-top: 45px;
+    }
+
+    li {
+        width: 350px;
+    }
+
+    .logo {
+        background-size: 300px;
+    }
+
+    .title {
+        text-align: center;
+    }
+}
