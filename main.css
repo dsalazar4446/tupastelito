@@ -32,7 +32,7 @@ li>span {
 }
 
 header {
-    background-color: #f1da00;
+    background-color: black;
 }
 
 body {
@@ -59,7 +59,7 @@ body {
 
  .container-footer {
     text-align: center;
-    background: #f1da00;
+    background: black;
     color: #ba190d;
     height: 50px;
     width: 100%;
