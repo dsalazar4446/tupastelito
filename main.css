@@ -45,12 +45,36 @@ body {
         margin-top: 40px;
 }
 
+.container-img {
+    width: 100%;
+    height: 400px;
+}
+ .img{
+    background-image: url('./assets/images/imagen.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+ }
+
+ .container-footer {
+    text-align: center;
+    background: #f1da00;
+    color: #ba190d;
+    height: 50px;
+    width: 100%;
+    padding-top: 13px;
+ }
+
+ .container-footer > p {
+    margin-bottom: 0;
+ }
 
 @media screen and (max-width: 426px) {
     .menu {
         font-size: 14px !important;
         padding-left: unset !important;
-        padding-top: 45px;
+        padding-top: unset;
     }
 
     li {
@@ -63,5 +87,11 @@ body {
 
     .title {
         margin-left: 37%;
+    }
+    .container-img, .img{
+        height: 240px;
+    }
+    .img{
+        background-size: contain;
     }
 }
