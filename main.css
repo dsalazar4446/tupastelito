@@ -33,7 +33,14 @@ li>span {
 
 header {
     background-color: black;
+    color: #ba190d;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 20px;
 }
+
 
 body {
     font-family: 'Poetsen One';
