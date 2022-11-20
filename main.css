@@ -101,4 +101,8 @@ body {
     .img{
         background-size: contain;
     }
+
+    iframe {
+        width: 100% !important;
+    }
 }
